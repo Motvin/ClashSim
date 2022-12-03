@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "ClashSim (Package)", "ClashSim (Package)\ClashSim (Package).wapproj", "{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashSim", "ClashSim\ClashSim.csproj", "{B34620EF-733C-4409-A966-8691E3CF1032}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|arm64 = Debug|arm64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|arm64 = Release|arm64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Debug|arm64.ActiveCfg = Debug|arm64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Debug|arm64.Build.0 = Debug|arm64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Debug|arm64.Deploy.0 = Debug|arm64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Debug|x64.ActiveCfg = Debug|x64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Debug|x64.Build.0 = Debug|x64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Debug|x64.Deploy.0 = Debug|x64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Debug|x86.ActiveCfg = Debug|x86
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Debug|x86.Build.0 = Debug|x86
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Debug|x86.Deploy.0 = Debug|x86
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Release|arm64.ActiveCfg = Release|arm64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Release|arm64.Build.0 = Release|arm64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Release|arm64.Deploy.0 = Release|arm64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Release|x64.ActiveCfg = Release|x64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Release|x64.Build.0 = Release|x64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Release|x64.Deploy.0 = Release|x64
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Release|x86.ActiveCfg = Release|x86
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Release|x86.Build.0 = Release|x86
+		{EBBA46DF-8226-4A25-A5FE-8397AE7804AF}.Release|x86.Deploy.0 = Release|x86
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Debug|arm64.ActiveCfg = Debug|arm64
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Debug|arm64.Build.0 = Debug|arm64
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Debug|x64.ActiveCfg = Debug|x64
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Debug|x64.Build.0 = Debug|x64
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Debug|x86.ActiveCfg = Debug|x86
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Debug|x86.Build.0 = Debug|x86
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Release|arm64.ActiveCfg = Release|arm64
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Release|arm64.Build.0 = Release|arm64
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Release|x64.ActiveCfg = Release|x64
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Release|x64.Build.0 = Release|x64
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Release|x86.ActiveCfg = Release|x86
+		{B34620EF-733C-4409-A966-8691E3CF1032}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {555E91DA-81BF-4C6B-8D49-EF141CEFD337}
+	EndGlobalSection
+EndGlobal
