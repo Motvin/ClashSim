@@ -321,6 +321,7 @@ namespace ClashSim
 
 		public static void DrawField(CanvasDrawingSession s)
 		{
+			DrawBackground(s);
 			DrawBorder(s);
 
 			// need to only draw if it isn't distroyed - base this on PlayerInfo???
@@ -366,6 +367,12 @@ namespace ClashSim
 			s.DrawRectangle(x, y, w, h, Windows.UI.Color.FromArgb(255, 0, 0, 0), 1); // black
 		}
 
+		private static void DrawBackground(CanvasDrawingSession s)
+		{
+			Windows.Foundation.Rect rect = new Windows.Foundation.Rect(0, 0, PlayingField_Width, PlayingField_Height);
+			s.FillRectangle(rect, Windows.UI.Color.FromArgb(255, 233, 219, 186)); // tan
+		}
+
 		private static void DrawBorder(CanvasDrawingSession s)
 		{
 			s.DrawRectangle(0, 0, PlayingField_Width, PlayingField_Height, Windows.UI.Color.FromArgb(255, 0, 0, 0), 1); // black
@@ -378,8 +385,8 @@ namespace ClashSim
 
 		private static void DrawBridges(CanvasDrawingSession s)
 		{
-			s.FillRectangle(Bridge_X, Bridge_Y, Bridge_Width, Bridge_Height, Windows.UI.Color.FromArgb(255, 214, 202, 177)); // stone color
-			s.FillRectangle(Bridge_XRight, Bridge_Y, Bridge_Width, Bridge_Height, Windows.UI.Color.FromArgb(255, 214, 202, 177)); // stone color
+			s.FillRectangle(Bridge_X, Bridge_Y, Bridge_Width, Bridge_Height, Windows.UI.Color.FromArgb(255, 185, 122, 87)); // brown
+			s.FillRectangle(Bridge_XRight, Bridge_Y, Bridge_Width, Bridge_Height, Windows.UI.Color.FromArgb(255, 185, 122, 87)); // brown
 		}
 
 		private static void DrawFirePits(CanvasDrawingSession s)

@@ -29,7 +29,7 @@ namespace ClashSim
 
 		private void FieldCanvas_Draw(CanvasControl sender, CanvasDrawEventArgs args)
 		{
-			Draw.DrawField(args.DrawingSession.);
+			Draw.DrawField(args.DrawingSession);
 		}
 
 		private void Timer_Tick(object sender, object e)

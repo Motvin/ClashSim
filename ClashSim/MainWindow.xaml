@@ -12,7 +12,7 @@
 			<RowDefinition Height="*"/>
 		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="160" />
+			<ColumnDefinition Width="400" />
 			<ColumnDefinition Width="684" />
 			<ColumnDefinition Width="*" />
 		</Grid.ColumnDefinitions>
@@ -20,13 +20,13 @@
 		</Grid>
 		<Grid x:Name="gridMid" Grid.Column="1">
 			<Grid.RowDefinitions>
-				<RowDefinition Height="100" />
+				<RowDefinition Height="200" />
 				<RowDefinition Height="992" />
-				<RowDefinition Height="100" />
+				<RowDefinition Height="200" />
 			</Grid.RowDefinitions>
-			<Grid x:Name="gridPlayer2Cards" Grid.Row="0">
+			<Grid x:Name="gridPlayer2" Grid.Row="0">
 			</Grid>
-			<Grid x:Name="gridPlayer1Cards" Grid.Row="2">
+			<Grid x:Name="gridPlayer1" Grid.Row="2">
 			</Grid>
 		</Grid>
 		<Grid x:Name="gridRight" Grid.Column="2">
